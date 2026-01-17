@@ -1,3 +1,38 @@
+WELCOME_TEXT = """
+👋 Welcome!
+
+This is the *VIP Access Bot*.
+
+💎 Get access to our *Private VIP Group* for just *$10/month*.
+
+Click the button below to subscribe 👇
+"""
+
+PAYMENT_TEXT = """
+💳 Complete your payment to get instant access.
+
+• Price: $10 USD
+• Access: 30 days
+• Private VIP Group
+
+After payment, you will be added automatically.
+"""
+
+SUCCESS_TEXT = """
+✅ Payment confirmed!
+
+🎉 Welcome to the VIP Group.
+You now have access for *30 days*.
+
+Enjoy the content!
+"""
+
+RENEW_TEXT = """
+⏰ Your VIP access is about to expire.
+
+Renew now to keep your access active 👇
+"""
+
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import stripe
